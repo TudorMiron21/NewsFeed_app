@@ -1,9 +1,40 @@
 ﻿  Source.cpp
   The contents of <optional> are available only with C++17 or later.
-C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\Message_Net.h(30,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\NetClient\Source.cpp(10): message : see reference to function template instantiation 'Message_Net &operator <<<int>(Message_Net &,const DataType &)' being compiled
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_message.h(33,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_message.h(32): message : while compiling class template member function 'int olc::net::message<T>::size(void) const'
           with
           [
-              DataType=int
+              T=CustomMsgTypes
           ]
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_message.h(66): message : see reference to function template instantiation 'int olc::net::message<T>::size(void) const' being compiled
+          with
+          [
+              T=CustomMsgTypes
+          ]
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_message.h(113): message : see reference to class template instantiation 'olc::net::message<T>' being compiled
+          with
+          [
+              T=CustomMsgTypes
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\deque(558): message : see reference to class template instantiation 'olc::net::owned_message<T>' being compiled
+          with
+          [
+              T=CustomMsgTypes
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\deque(600): message : see reference to class template instantiation 'std::_Deque_val<std::_Deque_simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=olc::net::owned_message<CustomMsgTypes>
+          ]
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_tsqueue.h(103): message : see reference to class template instantiation 'std::deque<T,std::allocator<T>>' being compiled
+          with
+          [
+              T=olc::net::owned_message<CustomMsgTypes>
+          ]
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\net_client.h(101): message : see reference to class template instantiation 'olc::net::tsqueue<olc::net::owned_message<T>>' being compiled
+          with
+          [
+              T=CustomMsgTypes
+          ]
+C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\NetClient\Source.cpp(16): message : see reference to class template instantiation 'olc::net::client_interface<CustomMsgTypes>' being compiled
   NetClient.vcxproj -> C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\x64\Debug\NetClient.exe
