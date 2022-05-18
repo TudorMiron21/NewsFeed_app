@@ -1,9 +1,0 @@
-﻿  Source.cpp
-  The contents of <optional> are available only with C++17 or later.
-C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\Net_Interface\Message_Net.h(30,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\NetClient\Source.cpp(10): message : see reference to function template instantiation 'Message_Net &operator <<<int>(Message_Net &,const DataType &)' being compiled
-          with
-          [
-              DataType=int
-          ]
-  NetClient.vcxproj -> C:\Users\Tudor\Desktop\Facultate\anul 2\sem2\P_POO\Net_Interface\x64\Debug\NetClient.exe
